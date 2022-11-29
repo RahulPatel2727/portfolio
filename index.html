@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#244570">
+    <title>Rahul Patel, "Java and Web Developer"</title>
+    <link rel="shortcut icon" href="./Images/icon1.png" type="image/x-icon">
+
+    <!-- Bootstrap cdn  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/874f4993e8.js" crossorigin="anonymous"></script>
+
+    <link href="./Styles/styles.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-primary name" href="#" style="font-size: 20px; font-weight: bolder; font-style: italic; border: 4px solid #922f92; border-radius: 15px; width: 140px; text-align: center;" >
+            Rahul Patel
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-home">Home</i></a>
+                </li>
+                <li class="nav-item dropDown">
+                    <a class="nav-link" href="#skills" style="color:rgb(16, 159, 159)">Skills</a>
+                </li>
+                <li class="nav-item dropdown dropDown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#WD">Web Development</a>
+                        <a class="dropdown-item" href="#Net">Networking</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#Bank">Banking & Finance</a>
+                        <a class="dropdown-item" href="#Mkt">Marketing</a>
+                    </div>
+                </li>
+                <li class="nav-item dropDown">
+                    <a class="nav-link" href="#contact" style="color: green;">Contact me</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Main content -->
+    <section class="row1">
+
+        <div class="row row1 rowImage">
+
+            <div class="col-lg-6 container" style="padding: 0; ">
+                <p class="card-text hello" style="font-size: 30px;">Hello!</p>
+
+                <div class="container" style="text-align: center; margin-top: 12%;">
+                    <h1 class="card-title mainHeading">I'm Rahul Patel</h1>
+                    <p class="card-text smalltext" style="text-align: left;">Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas for unforgettable marketing campaigns.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img class="img-fluid float-right myImg" src="./Images/icon1.png" alt="Himanshu">
+            </div>
+        </div>
+
+        <!-- Horizontal Line-->
+
+        <div class="redLine">
+            <hr>
+        </div>
+    </section>
+
+
+
+    <!-- Skills -->
+    <section class="row1">
+
+        <div class="container-fluid skillSection" id="skills">
+            <div>
+                <h1 style="padding-top: 20px;">Skills</h1>
+
+
+                <p class="skillsPara">A skill is the ability to perform an action with determined results often within a
+                    given amount of time,
+                    energy, or both. Skills can often be divided into domain-general and domain-specific skills. For
+                    example, in the domain of work, some general skills would include time management, teamwork and
+                    leadership, self-motivation and others, whereas domain-specific skills would be used only for a
+                    certain
+                    job. Skill usually requires certain environmental stimuli and situations to assess the level of
+                    skill
+                    being shown and used.
+                </p>
+            </div>
+
+
+            <div class="row row1">
+                <div class="col-lg-6 col-sm-1 card1">
+                    <div class="card">
+                        <img src="./Images/programming.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body" style="width: 100%;">
+                            <h5 class="card-title">Computing Skills</h5>
+
+                            <div class="progress" style="width: 100%; height:28px">
+                                <div class="progress-bar" style="width:90%;height:28px">
+                                    Front End Development(HTML, CSS, Javascript)
+                                </div>
+                            </div>
+                            <br>
+                            <div class="progress" style="height:28px">
+                                <div class="progress-bar" style="width:80%;height:28px">
+                                    Backend Development(MongoDB)
+                                </div>
+                            </div>
+                            <br>
+                            <div class="progress" style="height:28px">
+                                <div class="progress-bar" style="width:55%;height:28px">Networking</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-1 card1">
+                    <div class="card">
+                        <img src="./Images/trading.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Non-Computing Skills</h5>
+                            <div class="progress" style="height:28px">
+                                <div class="progress-bar" style="width:90%;height:28px">Banking & Finance</div>
+                            </div>
+                            <br>
+                            <div class="progress" style="height:28px">
+                                <div class="progress-bar" style="width:50%;height:28px">Marketing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Horizontal Line-->
+                <div class="container-fluid redLine">
+                    <hr>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section class="row1">
+
+        <div class="container-fluid" id="services">
+            <div>
+                <h1>Services</h1>
+
+
+                <p class="skillsPara">
+                    Services which I can offer to you &amp; your company are .......
+                </p>
+            </div>
+            <div class="row row1">
+                <div class="col-lg-3 col-sm-1 card1">
+                    <div class="card">
+                        <img src="./Images/webDevelopment.png" class="card-img-top" alt="...">
+                        <div class="card-body" id="WD">
+                            <h5 class="card-title">Web Developer</h5>
+                            <!-- <p class="card-text"></p> -->
+                            <a href="https://en.wikipedia.org/wiki/Web_development" class="btn btn-primary"
+                                target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-1 card1">
+                    <div class="card">
+                        <img src="./Images/networking.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" id="Net">
+                            <h5 class="card-title">Networking</h5>
+                            <!-- <p class="card-text"></p> -->
+                            <a href="https://en.wikipedia.org/wiki/Computer_network" class="btn btn-primary"
+                                target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-1 card1">
+                    <div class="card">
+                        <img src="./Images/Banking.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" id="Bank">
+                            <h5 class="card-title">Java Developer</h5>
+                            <!-- <p class="card-text"></p> -->
+                            <a href="https://docs.oracle.com/en/java/" class="btn btn-primary"
+                                target="_blank">Know More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-1 card1">
+                    <div class="card">
+                        <img src="./Images/Marketing.png" class="card-img-top" alt="...">
+                        <div class="card-body" id="Mkt">
+                            <h5 class="card-title">Marketing</h5>
+                            <!-- <p class="card-text"></p> -->
+                            <a href="https://en.wikipedia.org/wiki/Marketing" class="btn btn-primary"
+                                target="_blank">Know
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Horizontal Line-->
+                <div class="container-fluid redLine">
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact me! -->
+
+    <section class="row1">
+
+        <div class="container-fluid contactContainer" id="contact">
+            <div>
+                <h1>Contact Me!</h1>
+
+
+                <p class="skillsPara">
+                    You can contact me anytime on <i class="fab fa-whatsapp"></i> &amp; <i
+                        class="far fa-envelope"></i>
+                </p>
+            </div>
+            <div class="contactButtonContainer">
+                <div class="contactButton">
+                    <a href="https://wa.me/" target="_blank">
+                        <button>
+                            <div>
+                                <i class="fab fa-whatsapp"></i> Message Me!
+                            </div>
+                        </button>
+                    </a>
+
+                    <a href="https://github.com/RahulPatel2727">
+                        <button>
+                            <div>
+                                <i class="fab fa-github-square">GitHub</i>
+                            </div>
+                        </button>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/rahul-patel-a02132204/">
+                        <button>
+                            <div>
+                                <i class="fab fa-linkedin">Linkedin</i>
+                            </div>
+                        </button>
+                    </a>
+                    <a href="mailto:rahul23131420@gmail.com" target="_blank">
+                        <button>
+                            <div>
+                                <i class="far fa-envelope"></i> e-Mail :- rahul23131420@gmail.com
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">
+                Copyright
+                <i class="far fa-copyright">
+                    2022 rahul23131420
+                </i>
+            </span>
+            <p>
+                <span>
+                    Images are from
+                </span>
+                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2049242"
+                    target="_blank">google.com</a> &amp;
+                <span>
+                    <a href="https://unsplash.com/s/photos/trading?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                        target="_blank">Unsplash</a>
+                </span>
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
